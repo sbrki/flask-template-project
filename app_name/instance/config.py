@@ -1,0 +1,2 @@
+DEBUG = False
+SECRET_KEY = 'Sm9obiBTYKbGbYOb2lja3MgYXNz'
