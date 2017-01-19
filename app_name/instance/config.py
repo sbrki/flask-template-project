@@ -1,2 +1,2 @@
 DEBUG = False
-SECRET_KEY = 'Sm9obiBTYKbGbYOb2lja3MgYXNz'
+SECRET_KEY = 'your key goes here'
