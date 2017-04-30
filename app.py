@@ -1,21 +1,24 @@
+import os
 import flask
-import models
+import database
 
 
-app = flask.Flask(__name__, instance_relative_config=True)
-
-
-# Load Dev or Production config
-app.config.from_object("config.Dev")
-
-# Production and sensitive data (overwrites Dev/Production config)
-app.config.from_pyfile('config.py')
+app = flask.Flask(__name__)
 
 
 @app.route("/")
 def index():
-	return flask.render_template("index.html")
+	return flask.render_template("bs3.html")
+
 
 if __name__ == "__main__":
-	app.run()
+	DEBUG = False
+	if os.environ.get("DEBUG") != None:
+		if os.environ.get("DEBUG").lower() == "true":
+			DEBUG = True
+
+	app.run(
+		host="0.0.0.0",
+		debug=DEBUG
+		)
 
