@@ -1,4 +1,4 @@
-#Flask-tempalte-project
+# Flask-tempalte-project
 
 This is a template that helped me speed up the head work when building flask apps.
 
