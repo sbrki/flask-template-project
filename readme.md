@@ -1,7 +1,9 @@
 # Flask-template-project
 
-This is an bootstrap3-preloaded app template that helps me
+This is an app template that helps me
 speed up the head work when building flask apps.
+It comes preloaded with **bootstrap 3**, as well as 
+**peewee** ORM.
 
 It is ideal for small projects and/or hackathons.
 
