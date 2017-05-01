@@ -1,12 +1,15 @@
-#Flask-tempalte-project
+# Flask-template-project
 
-This is a template that helped me speed up the head work when building flask apps.
+This is an bootstrap3-preloaded app template that helps me
+speed up the head work when building flask apps.
 
-Out of the box, this template supports 3 types of deploying your app:
+It is ideal for small projects and/or hackathons.
 
-1. **test server - popular "app.run"**
-2. **deploying to Heroku**
-3. **building & deploying a docker image**
+I do not advise you to use this template in its original state for more serious projects.
 
+Out of the box, this template supports 4 types of deploying your app:
 
-Also, app is preloaded with bootstrap 3.
+1. **test server - popular "app.run()"**
+2. **running with gunicorn** 
+3. **deploying to Heroku**
+4. **building & deploying a docker image**
