@@ -13,7 +13,10 @@ This template project comes preloaded with:
 * **peewee**, *a python3 ORM*
 * **`tools`** submodule, which includes:
 	* simple SHA-224 hashing function
-	* simple string sanitizing function (via `bleach` python package.) 
+	* simple string sanitizing function (via `bleach` package.)
+* **a simple admin interface** (via `flask-admin` package)
+*   * The admin interface is located under `/admin/`
+*   * Default credentials for login are u:`admin` p:`1234` (**change this**)
 
 ## Supported deployment options
 Out of the box, this template supports following deployment options:
