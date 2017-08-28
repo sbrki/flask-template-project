@@ -1,4 +1,8 @@
 flask
 gunicorn
-peewee
 bleach
+peewee
+flask-wtf
+wtf-peewee
+flask-admin
+flask-basicauth
